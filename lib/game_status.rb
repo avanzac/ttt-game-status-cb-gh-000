@@ -1,20 +1,4 @@
-Skip to content
 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @avanzac Sign out
-1
-0 2 alexisadorn/Tic-Tac-Toe-Ruby
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-Tic-Tac-Toe-Ruby/ttt-game-status-v-000/lib/game_status.rb
-8f439e7  on 29 Mar 2017
-@alexisadorn alexisadorn Tic Tac Toe labs
-
-70 lines (61 sloc)  1.17 KB
 # Helper Method
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
