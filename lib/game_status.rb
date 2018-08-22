@@ -14,7 +14,7 @@ WIN_COMBINATIONS = [
   [1,4,7], # middle column
   [2,5,8], # right column
   [0,4,8], # diagonal a
-  [2,4,6] # diagonal b
+  [6,4,2] # diagonal b
 ]
 
 def won?(board)
