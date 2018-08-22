@@ -37,7 +37,7 @@ return false
 end
 
 def full?(board)
-  board.all? {|i| i == "X" || i == "O"}
+  board.all? {|index| index == "X" || index == "O"}
 end
 
 def draw?(board)
